@@ -3,7 +3,7 @@
     padding:0;
 }
 #main_container {
-    background-color: lightblue;
+    background-color: paleturquoise;
     width: 1000px;
     height: 400px;
     margin: 20px;
@@ -34,7 +34,7 @@
 } 
 
 .laatikko {
-    background-color: cadetblue; 
+    background-color: lightblue; 
     width: 300px;
     height: 150px;
     border: 10px solid rgb(24, 120, 150);
