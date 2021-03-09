@@ -1,10 +1,58 @@
 <!DOCTYPE html>
 <html>
+
+<head>
+    <title>Formit</title>
+    <link href="sovellus.css" rel="stylesheet" type="text/css">
+</head>
+
 <body>
 
-<h1>My First Heading</h1>
+<div id="main_container">
+<form>
 
-<em>My first paragraph.</em>
+    <div class="myDiv"><label for="pname">Valitse päivämäärä:</label> <br><br>
+    
+    <input type="text" id="pname" name="pname"></div>
+    
+    
+    <div class="myDiv2">Valitse tuotantomuodot: <br><br>
+    
+    
+    <input type="checkbox" id="y1" name="y1" value="y1">
+    <label for="Ydinvoima"> Ydinvoima</label> <br>
+
+    <input type="checkbox" id="l2" name="l2" value="l2">
+    <label for="Lauhdevoima">Lauhdevoima</label> <br>
+
+    <input type="checkbox" id="a3" name="a3" value="a3">
+    <label for="Aurinkovoima"> Aurinkovoima</label> <br>
+
+    <input type="checkbox" id="t4" name="t4" value="t4">
+    <label for="Tuulivoima"> Tuulivoima</label> <br>
+
+    <input type="checkbox" id="v5" name="v5" value="v5">
+    <label for="Vesivoima"> Vesivoima</label> </div>
+    </form>
+    
+    <div class="laatikko">
+        <label for="pname">Päivämäärä:</label> <br>
+        <select id="pvm" name="pvm">
+        <option value="pvm">Valitse pvm</option></select> <br><br>
+
+        <label for="mname">Tuotantomuodot:</label> <br>
+        <select id="muodot" name="muodot">
+        <option value="muodot">Valitse tuotantomuodot</option></select> <br><br>
+
+        <label for="pname2">Osuus kokonaiskulutuksesta:</label>
+        <select id="pvm2" name="pvm2">
+        <option value="pvm2">Valitse päivämäärä ja tuotantomuodot</option></select>         
+    </div>
+</div>
+
+    
+
+
 
 </body>
 </html>
