@@ -45,13 +45,13 @@
     margin: 4px 2px;
     cursor: pointer;
     position: fixed;
-    width:30px;
-    height:20px;
-    bottom:300px;
+    width:70px;
+    height:40px;
+    bottom:20px;
     left:30px;
 }
 
-    .button {background-color: #4CAF50;}
+.button {background-color: #4CAF50;}
     
     
     
