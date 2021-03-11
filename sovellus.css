@@ -18,7 +18,7 @@
     height:100px;
     left:30px;
     font-family: Arial, sans-serif;
-    font-size:50px;
+    
   }
  
 .myDiv2 {
@@ -57,13 +57,13 @@
     
 .laatikko {
     background-color: lightblue; 
-    width: 300px;
-    height: 220px;
-    border: 1px solid rgb(24, 120, 150);
+    width: 500px;
+    height: 400px;
+    border: 2px solid rgb(24, 120, 150);
     padding: 15px;
     margin: 0px;
-    left: 200px;
-    bottom: 210px;
+    left: 300px;
+    bottom: 0px;
     position: fixed;
     font-family: Arial, sans-serif;
 
