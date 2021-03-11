@@ -45,9 +45,10 @@
     margin: 4px 2px;
     cursor: pointer;
     position: fixed;
-    width:300px;
-    height:10px;
-    bottom:340px
+    width:30px;
+    height:20px;
+    bottom:300px;
+    left:30px;
 }
 
     .button {background-color: #4CAF50;}
