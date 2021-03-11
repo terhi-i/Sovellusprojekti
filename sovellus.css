@@ -44,9 +44,9 @@
     font-size: 16px;
     margin: 4px 2px;
     cursor: pointer;
-    position: absolut;
-    width:150px;
-    height:100px;
+    position:fixed;
+    width:110px;
+    height:80px;
     bottom:100px;
     left:30px;
 }
